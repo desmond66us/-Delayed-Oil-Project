@@ -65,5 +65,4 @@ SELECT YEAR(hire_date) AS Year, MONTH(hire_date) AS Month, COUNT(*) AS Employees
 
 ---
 
-### RECOMMENDATIONS
 
