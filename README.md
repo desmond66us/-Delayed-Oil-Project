@@ -31,3 +31,5 @@ The data set was provided by the client as a csv file, which was downloaded and 
 - Microsoft Excel Utilized for preliminary data correction and initial review of the dataset.
 - SQL Server: Employed for data cleaning in-depth analysis to extract meaningful insights.
 - Power BI: Used to visualize insights and provide detailed, interactive reports
+
+### EXPLORATORY DATA ANALYSIS (EDA)
