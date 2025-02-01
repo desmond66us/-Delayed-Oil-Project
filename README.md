@@ -13,3 +13,8 @@ The analysis cover:
   * Services delay patterns and external influencing factors
   * Operational bottlenecks and improvement opportunities
   
+**Methodology**
+ - Data Collection: Gathering logs, staffing data, equipment status, and services records
+ - Analysis: Identifying delay trends and correlating them with operation factors
+ - Root Cause Analysis: Diagnosing main delay contributors
+ - Solution Proposal: Recommending solutions, such as process optimization and resource allocation
