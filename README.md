@@ -20,3 +20,11 @@ This project investigates the root causes of delays in the oil transfer process 
  - Solution Proposal: Recommending solutions, such as process optimization and resource allocation
 
 ---
+
+### DATA SOURCE
+The data set was provided by the client as a csv file, which was downloaded and processed for analysis.
+
+**Tools**
+Microsoft Excel Utilized for preliminary data correction and initial review of the dataset.
+SQL Server: Employed for data cleaning in-depth analysis to extract meaningful insights.
+Power BI: Used to visualize insights and provide detailed, interactive reports
