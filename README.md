@@ -33,3 +33,37 @@ The data set was provided by the client as a csv file, which was downloaded and 
 - Power BI: Used to visualize insights and provide detailed, interactive reports
 
 ### EXPLORATORY DATA ANALYSIS (EDA)
+
+---
+
+**Key Question to Address:**
+1. Total Number of Truck Drivers
+   - Determine the number of truck drivers to assess if current staffing meets operational demands
+2. Number of Efficient Trucks
+   - Identify the count of trucks classified as efficient to understand fleet reliability and potential operational constraints
+3. Coverage Areas (Distances in Kilometers)
+   - Analyze distances covered to evaluate the geographic reach and the adequacy of logistical support across areas served
+4. Truck Breakdown and Maintenance Frequency
+   - Assess the frequency of truck breakdowns and scheduled maintenance to pinpoint areas needing additional support or preventive measures.
+
+These insights from EDA will contribute to optimizing workforce planning, improving fleet management, and enhancing the overall efficiency of oil transfer services.
+
+---
+
+### USED SQL CODES
+
+SQL
+```SELECT COUNT(*) AS TotalTruckDrivers
+FROM employees
+WHERE job_title = 'Truck Driver';
+SELECT COUNT(*) AS EfficientTrucks FROM trucks WHERE efficiency_status ='Efficient';
+SELECT truck_id, SUM(distance_in_km) AS TotalDistanceCovered FROM deliveries GROUP By truck_id;
+SELECT truck_id, COUNT(*) AS BreakdownCount FROM maintenance_log GROUP By truck_id;
+SELECT truck_id, COUNT(*) AS Maintenance FROM maintenance_log GROUP By truck_id;
+SELECT COUNT(*) AS EmployeesHiredInLastYear FROM employees WHERE hire_date >= DATE_SUB(CURDATE(), INTERVAL 1 YEAR);
+SELECT YEAR(hire_date) AS Year, MONTH(hire_date) AS Month, COUNT(*) AS EmployeesHired FROM employees GROUP BY YEAR(hired_date), MONTH(hire_date) ORDER BY YEAR(hired_date) DESC, MONTH(hired_date) DESC;
+
+---
+
+### RECOMMENDATIONS
+
