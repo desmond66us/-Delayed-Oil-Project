@@ -63,8 +63,6 @@ SELECT truck_id, COUNT(*) AS Maintenance FROM maintenance_log GROUP By truck_id;
 SELECT COUNT(*) AS EmployeesHiredInLastYear FROM employees WHERE hire_date >= DATE_SUB(CURDATE(), INTERVAL 1 YEAR);
 SELECT YEAR(hire_date) AS Year, MONTH(hire_date) AS Month, COUNT(*) AS EmployeesHired FROM employees GROUP BY YEAR(hired_date), MONTH(hire_date) ORDER BY YEAR(hired_date) DESC, MONTH(hired_date) DESC;
 
-- ![oil](https://github.com/user-attachments/assets/5a867a19-c780-423f-9604-a10439619602)
-
 ---
 
 RECOMMENDATIONS
