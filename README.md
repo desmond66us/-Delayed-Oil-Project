@@ -65,3 +65,13 @@ SELECT YEAR(hire_date) AS Year, MONTH(hire_date) AS Month, COUNT(*) AS Employees
 
 ---
 
+RECOMMENDATIONS
+Based on the Exploratory Data Analysis (EDA) and insights derived from SQL queries, here are some recommendations to improve the efficiency and reliability of the oil transfer services:
+1. Optimize Workforce Allocation:
+    - Recommendation:
+   o Based on the total number of truck drivers, assess if the current workforce is sufficient to meet demands, 
+     especially during peak periods. if there are shortages, consider hiring additional drivers or redistributing work hours to avoid 
+     delays.
+   - Actionable Steps:
+   o Evaluate whether the number of drivers matches the number of trucks and expected delivery volumes.
+   o Consider flexible staffing models, such as on-demand or seasonal hires, to meet peak services to meet peak service needs.
