@@ -7,7 +7,7 @@ This project investigates the root causes of delays in the oil transfer process 
 
 **Scope**
 
-The analysis cover:
+**The analysis cover:**
   * Current transfer and handling protocols
   * Staffing and equipment utilization patterns
   * Services delay patterns and external influencing factors
